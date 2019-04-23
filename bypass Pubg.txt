@@ -1,0 +1,48 @@
+:update: DO THIS﻿﻿﻿ ONLY WHEN YOU KEEP GETTING DETECTED/﻿BANNED (DATA CHANGED):
+
+This method requires jailbreak.
+
+first make sure pubg is not﻿ running or open.
+
+install/open appsmanager (from cydia)
+
+wipe data of pubg mobile, then uninstall pubg mobile and redownload it. 
+
+Then open Filza and go﻿ to:
+
+﻿ /var/mobile/Containers/Data/Application/<YOUR_PUBG﻿ MOBILE_LOCATION>/Documents/ShadowTrackerExtra/Saved/UpdateInfo
+
+open the file: apollo_uuid_define.json
+
+replace some digits or numbers there, like 
+
+change some digits or all and save it.
+
+example:
+
+﻿{ "uuid" : "12345678-tu5446-b48d62-fddor0-be4a81" }
+save it and go back, 
+
+click in the "i"
+
+﻿ change file permissions to 0444 or read only.
+
+
+additional things you can do:
+
+remove apollo_update2018***.log files
+go back to /var/mobile/Containers/Data/Application/<YOUR_PUBG MOBILE_LOCATI﻿ON>/Documents/ShadowTrackerExtra/Saved/
+
+and click on the "i" of Updateinfo and set permissions to 0444 or read only and hit save.
+
+now go to /var/mobile/Containers/Data/Application/<YOUR_PUBG﻿ MOBILE_LOCATION>/Documents/ShadowTrackerExtra/Saved/Logs/
+
+and open ShadowTrackerExtra.log and "select all" the text, and then remove it and hit save.
+
+and click on the "i" of ShadowTrackerExtra.log and set permissions to 0444 or read only and hit save.
+
+remove all other files beside it in that folder so only ShadowTrackerExtra.log is left.
+
+﻿ go back to /var/mobile/Containers/Data/Application/<YOUR_PUBG MOBILE_LOCATION>/Documents/ShadowTrackerExtra/Saved/
+
+and click on the "i" of logs and set p﻿ermissions to 0444 or read only and hit save.
